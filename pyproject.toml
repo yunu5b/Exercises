@@ -1,0 +1,17 @@
+[project]
+name = "datsc-exercises"
+version = "0.1.0"
+description = "Exercises for Data Science"
+readme = "README.md"
+authors = [
+    { name = "Jonas Busch", email = "jonas_busch@outlook.de" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+datsc-exercises = "datsc_exercises:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
