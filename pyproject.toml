@@ -7,7 +7,9 @@ authors = [
     { name = "Jonas Busch", email = "jonas_busch@outlook.de" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "scipy>=1.18.1",
+]
 
 [project.scripts]
 datsc-exercises = "datsc_exercises:main"
